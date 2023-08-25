@@ -331,12 +331,13 @@
 }
 
 .accordion {
-    --bs-accordion-bg: none;
-    --bs-accordion-border-width: none;
-    --bs-accordion-btn-focus-shadow: none;
-    --bs-accordion-active-color: #0389FF;
-    --bs-accordion-active-bg: none;
-    --bs-accordion-active-padding-bottom: 7px;
+    --bs-accordion-bg: #000A1A !important;
+    --bs-accordion-border-width: #000A1A !important;
+    --bs-accordion-btn-focus-shadow: none !important;
+    --bs-accordion-active-color: #000A1A !important;
+    --bs-accordion-color: #000A1A !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-active-padding-bottom: 7px !important;
 }
 
 .accordion-body {
