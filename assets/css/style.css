@@ -54,7 +54,13 @@
 .mt-100 {
     margin-top: 150px;
 }
+.gap-10{
+    gap: 10px;
+}
+.ul{
+    padding-left: 0;
 
+}
 .btn-1 {
     color: #001D49;
     font-family: 'Poppins', sans-serif;
@@ -66,6 +72,11 @@
     border-radius: 45.5px;
     background: #FFF;
     border: none;
+    transition: 1s;
+}
+.btn-1:hover{
+    color: white;
+    background-color: #001D49;
 }
 
 
@@ -101,6 +112,12 @@
     border-radius: 45.5px;
     background: #FFF;
     border: none;
+    transition: 1s
+}
+.sec-1-btn:hover{
+    color: white;
+    background-color: #001D49;
+
 }
 
 .mt-50 {
