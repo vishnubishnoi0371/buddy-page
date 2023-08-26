@@ -61,6 +61,7 @@
     padding-left: 0;
 
 }
+
 .btn-1 {
     color: #001D49;
     font-family: 'Poppins', sans-serif;
@@ -403,7 +404,7 @@
 
 .accordion-item {
     padding: 0 !important;
-    border: 2px solid transparent !important;
+    border: 1px solid #031227 !important;
     border-radius: 30px !important;
     margin-bottom: 20px !important;
     background-color: #031227 !important;
