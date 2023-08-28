@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
-
 @import url(root.css);
 
 * {
@@ -9,13 +7,13 @@
     list-style-type: none;
     text-decoration: none;
     box-sizing: border-box;
-
 }
 
 .nav-logo {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     line-height: 150%;
+    cursor: pointer;
 }
 
 .head-bg-img {
@@ -32,8 +30,21 @@
     max-width: 510px;
 }
 
-.gap-30 {
-    gap: 30px;
+.gap-50 {
+    gap: 80px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.py-100 {
+    padding-top: 200px;
+    padding-bottom: 150px;
 }
 
 .heading-2 {
@@ -41,6 +52,7 @@
     font-style: normal;
     line-height: 41px;
     max-width: 550px;
+
 }
 
 .mb-200 {
@@ -54,12 +66,13 @@
 .mt-100 {
     margin-top: 150px;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
-.ul{
-    padding-left: 0;
 
+.ul {
+    padding-left: 0;
 }
 
 .btn-1 {
@@ -75,11 +88,11 @@
     border: none;
     transition: 1s;
 }
-.btn-1:hover{
+
+.btn-1:hover {
     color: white;
     background-color: #001D49;
 }
-
 
 /* sec-1 */
 .sec-1-head-1 {
@@ -115,10 +128,10 @@
     border: none;
     transition: 1s
 }
-.sec-1-btn:hover{
+
+.sec-1-btn:hover {
     color: white;
     background-color: #001D49;
-
 }
 
 .mt-50 {
@@ -129,9 +142,7 @@
     margin-top: 150px;
 }
 
-
 /* sec-2 */
-
 .sec-2-card-1 {
     width: 100%;
     height: 511px;
@@ -146,7 +157,6 @@
     font-style: normal;
     line-height: 100.5%;
 }
-
 
 .sec-2-head-2 {
     max-width: 350px;
@@ -168,15 +178,22 @@
     padding-bottom: 50px;
 }
 
+.pt-200 {
+    padding-top: 200px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
 /* roadmap */
-
-
 .timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
 }
-.pt-10{
+
+.pt-10 {
     padding-top: 10px;
 }
 
@@ -190,14 +207,12 @@
     border: 2px dashed white;
 }
 
-
 .container1 {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
 }
-
 
 .container1::after {
     content: '';
@@ -220,7 +235,6 @@
     width: 50%;
 }
 
-
 .container-2::after {
     content: '';
     position: absolute;
@@ -239,26 +253,19 @@
     left: 0;
 }
 
-
 .right {
     left: 50%;
 }
-
-
 
 .right::after {
     left: -16px;
 }
 
-
-
 @media screen and (max-width: 600px) {
-
     .timeline::after {
         left: 31px;
-        
-    }
 
+    }
 
     .container1 {
         width: 100%;
@@ -285,7 +292,6 @@
         border-width: 10px 10px 10px 0;
         border-color: transparent white transparent transparent;
     }
-
 
     .left::after,
     .right::after {
@@ -340,12 +346,8 @@
     max-width: 900px;
 }
 
-
-
-
 .accordion-button:focus {
     border: none !important;
-
 }
 
 .accordion {
@@ -361,7 +363,7 @@
 .accordion-body {
     padding: 0 !important;
     color: var(--gray) !important;
-    padding: 8px 0px 20px 27px !important;
+    padding: 20px 0px 20px 27px !important;
 }
 
 .accordion-button {
@@ -373,11 +375,9 @@
     border-radius: 30px !important;
 }
 
-
 .accordion-button:not(.collapsed) {
     color: #0389FF !important;
     transition: all 300ms linear !important;
-
 }
 
 .accordion {
@@ -391,7 +391,6 @@
 .accordion-button:not(.collapsed) img {
     display: block !important;
     border-radius: 30px !important;
-
 }
 
 .pt-15 {
@@ -411,7 +410,6 @@
 }
 
 /* team */
-
 .team {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -434,8 +432,14 @@ p {
     margin-bottom: 0 !important;
 }
 
+.road-head {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 150%;
+}
+
 /* ftr */
-.join {
+.ftr-head {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -472,16 +476,17 @@ p {
     font-style: normal;
     line-height: 150%;
 }
-.pt-150{
+
+.pt-150 {
     padding-top: 150px;
 }
+
 .ft-imgs {
     background-image: url(../images/ft-bg.png);
     background-position: center;
     background-size: cover;
     width: 100%;
 }
-
 
 .my-100 {
     padding-top: 100px;
@@ -509,13 +514,22 @@ p {
     top: 10%;
     left: -8%;
 }
-.pb-100{
+
+.pb-100 {
     padding-bottom: 70px;
 }
+
 .mail-ft {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     line-height: 150%;
+}
+
+.road {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 136%;
 }
 
 .road-shadow {
@@ -532,11 +546,16 @@ p {
     text-align: end;
 }
 
+.ul {
+    padding-left: unset;
+}
+
 @media (max-width:992px) {
     .mt-200 {
         margin-top: 20px;
     }
-    .ml-230{
+
+    .ml-230 {
         margin-left: 230px;
     }
 
@@ -562,10 +581,7 @@ p {
         left: 50%;
         transform: translate(-50%);
     }
-
 }
-
-
 
 @media (min-width:768px) {
     .mt-30 {
@@ -574,13 +590,34 @@ p {
 }
 
 @media (max-width:430px) {
-    .ml-230{
+    .ml-230 {
         margin-left: 0px;
     }
 }
+
 @media (max-width:768px) {
-    .mt-50 {
-        margin-top: 10px;
+
+    .mt-sm-20 {
+        margin-top: 20px;
+    }
+
+    .heading-2 {
+
+        line-height: 21px;
+    }
+
+    .pt-200 {
+        padding-top: 80px;
+    }
+
+    .py-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .space-sm {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .text-end {
@@ -590,8 +627,6 @@ p {
     .text-end-1 {
         text-align: left !important;
     }
-
-
 
     .fs-70 {
         font-size: 32px;
@@ -630,11 +665,9 @@ p {
         font-size: 22px;
     }
 
-
     .fs-50 {
         font-size: 42px;
     }
-
 
     .mb-sm-100 {
         margin-bottom: 100px;
@@ -644,11 +677,17 @@ p {
         margin-top: 100px;
     }
 
+    .pt-150 {
+        padding-top: 50px;
+    }
+
+    .pb-110 {
+        padding-bottom: 30px;
+    }
+
     .mt-sm-30 {
         margin-top: 30px;
     }
-
-
 }
 
 @media (max-width:800px) {
@@ -669,7 +708,6 @@ p {
         width: 100%;
         height: 5px;
         background: #0389FF;
-
     }
 
     .nav-flip {
@@ -685,7 +723,6 @@ p {
         height: 100%;
         background: black;
         z-index: 3;
-
     }
 
     .left-0 {

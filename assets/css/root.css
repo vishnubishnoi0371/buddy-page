@@ -7,7 +7,6 @@
     --white: #FFFFFF;
     --blue: #0389FF;
     --blue-flip: #031227;
-
     --bg-color: #000A1A;
     --gray: #98A1A9;
     --light-color: #98A1A9;
@@ -27,8 +26,6 @@
     --fs-70: 70px;
     --fs-50: 50px;
     --fs-30: 30px;
-
-
     /* font-weight */
     --fw-600: 600;
     --fw-300: 300;
@@ -36,9 +33,7 @@
     --fw-700: 700;
     --fw-500: 500;
 }
-
 /* font-weight */
-
 .fw-300{
     font-weight: var(--fw-300);
 }
@@ -54,10 +49,6 @@
 .fw-700{
     font-weight: var(--fw-700);
 }
-
-
-
-
 /* color */
 .blue{
 color: var(--blue);
@@ -95,9 +86,6 @@ background-color: var(--blue-flip);
 .dream-clr{
     color: var(--dream-clr);
 }
-
-
-
 /* font-size */
 .fs-14{
     font-size: var(--fs-14);
